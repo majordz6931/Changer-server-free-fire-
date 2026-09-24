@@ -1,0 +1,2 @@
+SERVER-FREE-FIRE DEPLOYMENT: VERCEL-MATCH-FIX-20260922-2
+If you can open this file from your InfinityFree domain, the domain is serving this deployment package.
