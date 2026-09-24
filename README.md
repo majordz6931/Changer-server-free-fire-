@@ -6,13 +6,13 @@ Updated with:
 - 5-language interface: English, French, Arabic, Portuguese, Spanish
 - Request review step before payment
 - Request reference generation after confirmation
-- Request tracking on the same browser/device via localStorage
+- Request tracking via Supabase with localStorage fallback
 - Dedicated Track Request page (`track.html`)
 - Payment page with crypto QR methods and a Track Request link
 - Existing rectangular top banner and small header logo
 - Admin dashboard and existing request storage retained
 
-Note: Request/payment records in this package are browser-local (`localStorage`); they are not a shared server database. The admin status editor updates those local records. The package does not claim to perform an authorized Free Fire server change automatically. The admin login is a front-end demo credential and must be replaced with real server-side authentication before public production use.
+Note: Request/payment records use the shared Supabase database, with localStorage retained as a browser fallback. The admin dashboard reads and updates the shared records. The package does not claim to perform an authorized Free Fire server change automatically. The admin login is a front-end demo credential and must be replaced with real server-side authentication before public production use.
 
 
 ## Verification
