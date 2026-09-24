@@ -152,7 +152,7 @@ async function loadRequest(){
   }catch{}
   req=getLocalRequest(requestedRef);
 }
-await loadRequest();
+loadRequest().then(()=>renderSummary(PT[localStorage.getItem('siteLang')||'en']||PT.en)).catch(()=>{});
 const lang=document.getElementById('language');lang.value=localStorage.getItem('siteLang')||'en';lang.addEventListener('change',e=>applyPayLang(e.target.value));applyPayLang(lang.value);
 const proofInput=document.getElementById('paymentProof'),proofPreview=document.getElementById('proofPreview'),proofImage=document.getElementById('proofImage'),proofFile=document.getElementById('proofFile'),proofError=document.getElementById('proofError'),proofBox=document.getElementById('proofBox'),proofRemove=document.getElementById('proofRemove');let proofObjectUrl='';
 function setProofError(message){proofError.textContent=message||'';proofError.classList.toggle('show',!!message);proofBox.classList.toggle('invalid',!!message)}
