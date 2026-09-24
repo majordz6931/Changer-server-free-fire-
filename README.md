@@ -31,3 +31,7 @@ Note: Request/payment records use the shared Supabase database, with localStorag
 - Admin session uses `sessionStorage` instead of persistent `localStorage`.
 - Admin dashboard can update request status and displays payment method.
 - Escaping is retained for user-controlled request fields.
+
+
+## Deployment sync
+The production deployment should track the latest `main` commit from GitHub.
