@@ -118,7 +118,7 @@
   <div class="section-head"><div><div class="eyebrow">FAQ</div><h2 data-i18n="faqTitle">Frequently asked questions</h2></div></div>
   <div class="faq">
     <details open><summary data-i18n="faq1q">What happens after I submit?</summary><p data-i18n="faq1a">You first review the details. After confirmation, a unique request reference is created and you continue to the payment page.</p></details>
-    <details><summary data-i18n="faq2q">Can I track my request?</summary><p data-i18n="faq2a">Yes. Keep your request reference and use the Track page. This front-end version stores requests in the current browser.</p></details>
+    <details><summary data-i18n="faq2q">Can I track my request?</summary><p data-i18n="faq2a">Yes. Keep your request reference and use the Track page. Requests are stored in the shared database and can be tracked from any device.</p></details>
     <details><summary data-i18n="faq3q">Is this an official Garena service?</summary><p data-i18n="faq3a">No official affiliation with Garena is claimed by this website. Service availability depends on the actual authorized service behind the request.</p></details>
   </div>
 </section>
@@ -132,6 +132,7 @@
 </section>
 </main>
 <footer><span>© <span id="year"></span> Free Fire Server Change</span><span data-i18n="footer">Request interface • Multilingual • Mobile friendly</span></footer>
-<script src="app-v3.js?v=20260922-2"></script>\n<script src="activity.js?v=20260922-2"></script>
+<script src="app-v3.js?v=20260922-2"></script>
+<script src="activity.js?v=20260922-2"></script>
 </body>
 </html>
